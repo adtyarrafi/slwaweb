@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h1>Welcome to My Website</h1>
+        </section>
+
+        <section class="content">
+            <h2>What is AI?</h2>
+            <p>AI, atau Artificial Intelligence (Kecerdasan Buatan), adalah cabang dari ilmu komputer yang berfokus pada pembuatan sistem atau mesin yang dapat meniru kecerdasan manusia. AI memungkinkan mesin untuk belajar dari pengalaman, menyesuaikan diri dengan input baru, dan melakukan tugas-tugas yang biasanya membutuhkan kecerdasan manusia, seperti pengenalan suara, pemahaman bahasa alami, penglihatan komputer, pengambilan keputusan, dan pemecahan masalah.</p>
+            <div class="highlight">Adapun AI biasanya dibagi menjadi dua jenis utama:</div>
+            <ol>
+                <li class="list-item">AI Sempit (Narrow AI)</li>
+                <li class="list-item">AI Umum (General AI)</li>
+            </ol>
+        
+            <div class="highlight">
+                AI memiliki banyak manfaat dalam berbagai bidang, membantu meningkatkan efisiensi, akurasi, dan menciptakan solusi inovatif. Beberapa manfaat utama dari AI antara lain:
+            </div>
+            <ol>
+                <li class="list-item">Otomatisasi Tugas: AI memungkinkan otomatisasi tugas-tugas rutin dan berulang, yang menghemat waktu dan tenaga.</li>
+                <li class="list-item">Pengambilan Keputusan Lebih Cepat dan Tepat: AI dapat menganalisis data dalam jumlah besar dengan cepat dan memberikan rekomendasi yang akurat.</li>
+                <li class="list-item">Personalisasi Pengalaman Pengguna: AI dapat digunakan untuk memberikan pengalaman yang lebih personal bagi pengguna.</li>
+                <li class="list-item">Inovasi di Bidang Kesehatan: Dalam dunia kesehatan, AI digunakan untuk menganalisis data medis, membantu diagnosis penyakit, merancang obat baru, dan mengembangkan perawatan yang lebih efektif.</li>
+                <li class="list-item">Kemajuan di Bidang Transportasi: Teknologi AI mendukung pengembangan mobil otonom yang dapat mengemudi sendiri, yang berpotensi mengurangi kecelakaan lalu lintas dan kemacetan.</li>
+                <li class="list-item">Deteksi Penipuan dan Keamanan Siber: AI digunakan untuk mendeteksi pola dan anomali dalam data yang menunjukkan aktivitas mencurigakan.</li>
+            </ol>
+        
+            <div class="highlight">Adapun Aplikasi AI di Dunia Nyata:</div>
+            <ul>
+                <li class="list-item">Industri Kesehatan: Diagnosa penyakit, perancangan obat, analisis citra medis.</li>
+                <li class="list-item">Keuangan: Deteksi penipuan, penilaian kredit, analisis pasar.</li>
+                <li class="list-item">Retail dan E-commerce: Sistem rekomendasi, analisis perilaku konsumen.</li>
+                <li class="list-item">Transportasi: Mobil otonom, optimisasi rute logistik.</li>
+                <li class="list-item">Manufaktur: Otomatisasi proses produksi, pemeliharaan prediktif.</li>
+            </ul>
+        </section>
+
+        <section class="gallery">
+            <h2>Galeri Gambar AI</h2>
+            <div class="gallery-container">
+                <img src="https://img.freepik.com/free-photo/ai-chip-artificial-intelligence-future-technology-innovation_53876-129780.jpg?ga=GA1.1.901136576.1729786872&semt=ais_hybrid" alt="Gambar AI 1">
+                <img src="https://img.freepik.com/free-photo/robot-hand-finger-ai-background-technology-graphics_53876-129793.jpg?ga=GA1.1.901136576.1729786872&semt=ais_hybrid" alt="Gambar AI 2">
+                <img src="https://img.freepik.com/free-photo/glass-smartphone-high-tech-innovation-ai-technology_53876-129775.jpg?ga=GA1.1.901136576.1729786872&semt=ais_hybrid" alt="Gambar AI 3">
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h2>Formulir Pendaftaran</h2>
+            <form method="post" class="registration-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Masukkan username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Masukkan password" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+                
+                <label for="nim">NIM:</label>
+                <input type="text" id="nim" name="nim" placeholder="Masukkan NIM">
+    
+                <label>Jenis Kelamin:</label>
+                <div class="gender-options">
+                    <input type="radio" id="pria" name="gender" value="pria" required>
+                    <label for="pria">Pria</label>
+                    <input type="radio" id="wanita" name="gender" value="wanita" required>
+                    <label for="wanita">Wanita</label>
+                </div>
+    
+                <label>Hobi:</label>
+                <div class="hobbies">
+                    <input type="checkbox" id="coding" name="hobi" value="coding">
+                    <label for="coding">Coding</label>
+                    <input type="checkbox" id="psan" name="hobi" value="psan">
+                    <label for="psan">PSan</label>
+                    <input type="checkbox" id="bilyard" name="hobi" value="bilyard">
+                    <label for="bilyard">Bilyard</label>
+                </div>
+    
+                <label for="deskripsi">Deskripsi Pribadi:</label>
+                <textarea id="deskripsi" name="deskripsi" rows="5" placeholder="Tulis deskripsi singkat tentang diri Anda"></textarea>
+    
+                <button type="submit">Kirim</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+
+    <footer>
+        <p>Created by Salwa Aulia - 241011700565</p>
+    </footer>
+</body>
+</html>
